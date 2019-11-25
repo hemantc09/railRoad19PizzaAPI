@@ -90,10 +90,10 @@ Select Run As >  TestNG Suite
 - Validate response contains item
 
 2. POST  call : single order - 2 toppings -  Success 201
-Base path: /orders
-Validate response contains id
-Validate status code
-Validate status line
+- Base path: /orders
+- Validate response contains id
+- Validate status code
+- Validate status line
 
 ##### Toppings  module:
 
