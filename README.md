@@ -99,12 +99,12 @@ Validate status line
 
 ##### Toppings  module:
 
-3. GET call - Toppings - 200 OK - List all Toppings
+1. GET call - Toppings - 200 OK - List all Toppings
 - Base path : /toppings
 - Validate Status code
 - Validate status line
 
-4. DELETE /toppings/1 - 200 OK - Success 
+2. DELETE /toppings/1 - 200 OK - Success 
 - Base path : /toppings
 - Validate Status code
 - Validate status line
