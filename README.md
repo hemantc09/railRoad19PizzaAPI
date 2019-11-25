@@ -9,8 +9,8 @@
 **Github repository:**  enter repo URL here
 
 **Steps to import project**
-- Download repo from enter repo URL here
-- Unzip folder it
+- Download repo from enter https://github.com/hemantc09/railRoad19PizzaAPI
+- Unzip [railRoad19PizzaAPI-master] folder it
 - Go to Eclipse > File > Import > Existing Projects into Workspace
 - Click on Next 
 - Click on Browse
@@ -83,13 +83,13 @@ Select Run As >  TestNG Suite
 ##### Orders module : 
 
 1. GET call : All orders  - 200 OK
-Base path :  /orders
-Validate Status code 
-Validate Status line
-GET call :  single order  - 200 OK
-Base path: /order/1
-Validate response contains id
-Validate response contains item
+- Base path :  /orders
+- Validate Status code 
+- Validate Status line
+- GET call :  single order  - 200 OK
+- Base path: /order/1
+- Validate response contains id
+- Validate response contains item
 
 2. POST  call : single order - 2 toppings -  Success 201
 Base path: /orders
@@ -100,44 +100,44 @@ Validate status line
 ##### Toppings  module:
 
 3. GET call - Toppings - 200 OK - List all Toppings
-Base path : /toppings
-Validate Status code
-Validate status line
+- Base path : /toppings
+- Validate Status code
+- Validate status line
 
 4. DELETE /toppings/1 - 200 OK - Success 
-Base path : /toppings
-Validate Status code
-Validate status line
+- Base path : /toppings
+- Validate Status code
+- Validate status line
 
 ##### Pizzas  module :
 
 1. GET call - Toppings - 200 OK - List all Toppings
-Base path : /toppings
-Validate Status code
-Validate status line
-Validate all pizza id 
-Validate all pizza names
+- Base path : /toppings
+- Validate Status code
+- Validate status line
+- Validate all pizza id 
+- Validate all pizza names
 
 
 #### Test Cases : Not AutomatedTest Cases : Not Automated
 
 1. POST  call : single order - 2 toppings -  Negative Test case
-Base path: /orders
-Payload - extra toppings more than 2
-Validate response contains error code 
-Validate response contains error message “toppings should be 2 as per pizza type”
+- Base path: /orders
+- Payload - extra toppings more than 2
+- Validate response contains error code 
+- Validate response contains error message “toppings should be 2 as per pizza type”
 
 2. POST  call : single order - no toppings
-Base path: /orders
-Payload - {}
-Validate response contains error code 
-Validate error message “Add toppings”
+- Base path: /orders
+- Payload - {}
+- Validate response contains error code 
+- Validate error message “Add toppings”
 
 3. POST  call : single order - Incorrect pizza name 
-Base path: /orders
-Payload - pass incorrect pizza type name [schema string validation]
-Validate response contains error code 
-Validate error message  “pizza type name is incorrect”
+- Base path: /orders
+- Payload - pass incorrect pizza type name [schema string validation]
+- Validate response contains error code 
+- Validate error message  “pizza type name is incorrect”
 
 
 Regards,
