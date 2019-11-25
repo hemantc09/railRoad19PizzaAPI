@@ -12,9 +12,7 @@
 - Download repo from enter https://github.com/hemantc09/railRoad19PizzaAPI
 - Unzip [railRoad19PizzaAPI-master] folder it
 - Go to Eclipse > File > Import project
-- Click on Next 
-- Click on Browse
-- Select the Folder “FoxApiTestingTest”
+- Select the Folder “railRoad19PizzaAPI-master”
 - Click on Open
 - Click Finish
 
