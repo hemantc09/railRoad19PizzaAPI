@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuiteforRailRoad19API" verbose="10">
+<listeners>
+	<listener class-name="com.sample.test.demo.utils.Listeners" />
+</listeners>
+	<test name="Tests">
+		<!-- Enter group name to execute specific set of tests -->
+		<groups>
+			<run>
+   				<include name="ordersSanity" />
+   				<include name="toppingsSanity" />
+   				<include name="pizzasSanity" />
+        	</run>
+       	</groups>
+		<!-- <classes>
+			<class name="com.sample.test.demo.tests.OrdersTest"/>
+		</classes> -->
+		<!-- List individual packages to execute below -->
+		<packages>
+			<package name="com.sample.test.demo.tests.*" />
+		</packages> 
+	</test>
+</suite>
