@@ -48,7 +48,7 @@ Each Test Class has multiple test cases created . Also I have added comments in 
 **Steps to see the results using report.html**
 
 Go to Report Directory
-Right click foxReport.html > Open With WebBrowser
+Right click railRoadReport.html > Open With WebBrowser
 This will open the report in WebBrowser and it will show the entire test suite report
 
 **2. Steps to Run the Test suite using TestNG**
